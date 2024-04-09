@@ -43,7 +43,7 @@ abstract class SagepayApi
      */
     public function getApiEndpoint()
     {
-        return $this->options['sandbox'] ? 'https://pi-test.sagepay.com/api/v1/' : 'https://pi-live.sagepay.com/api/v1/';
+        return $this->options['sandbox'] ? 'https://sandbox.opayo.eu.elavon.com/api/v1/' : 'https://live.opayo.eu.elavon.com/api/v1/';
     }
 
     /**
@@ -51,7 +51,7 @@ abstract class SagepayApi
      */
     public function getOffsiteEndpoint()
     {
-        return $this->options['sandbox'] ? 'https://test.sagepay.com/gateway/service/vspform-register.vsp' : 'https://live.sagepay.com/gateway/service/vspform-register.vsp';
+        return $this->options['sandbox'] ? 'https://sandbox.opayo.eu.elavon.com/gateway/service/vspform-register.vsp' : 'https://live.opayo.eu.elavon.com/gateway/service/vspform-register.vsp';
     }
 
     public function getOption(string $option)
