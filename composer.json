@@ -12,8 +12,8 @@
         }
     ],
     "require": {
-        "php": "^7.1 || ^8.0",
-        "sylius/sylius": "^1.1",
+        "php": "^8.0 || ^8.1",
+        "sylius/sylius": "^1.11 || ^1.12 || ^1.13",
         "ext-curl": "*",
         "ext-json": "*"
     },
